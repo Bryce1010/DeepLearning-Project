@@ -1,0 +1,16 @@
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,und;q=0.9,zh-CN;q=0.8,zh-TW;q=0.7,zh;q=0.6
+Connection: keep-alive
+Cookie: UM_distinctid=170a61f7a7d5e-04d64fa2927669-317c0e5e-1fa400-170a61f7a7eea; _ga=GA1.2.1377753453.1583335310; amplitude_id_fef1e872c952688acd962d30aa545b9ezsxq.com=eyJkZXZpY2VJZCI6IjA5Njc1MzZmLTIyOGQtNDk5My05ZmQ4LWE1OTg3ZWZkYzgyY1IiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTU4MzMzNTMxMDIxMiwibGFzdEV2ZW50VGltZSI6MTU4MzMzNTMxMDIyMywiZXZlbnRJZCI6MSwiaWRlbnRpZnlJZCI6MSwic2VxdWVuY2VOdW1iZXIiOjJ9; zsxq_access_token=1B4843D7-F96E-5C60-3C7A-B11D86EA566D; abtest_env=product
+Host: api.zsxq.com
+Origin: https://wx.zsxq.com
+Referer: https://wx.zsxq.com/dweb2/index/group/15284285842552
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+X-Request-Id: f8bc1f42b-c2fa-a55b-89db-b1613801fa4
+X-Signature: 4c1f8ed2f32d1b82f56a29067c7907dcf07d709b
+X-Timestamp: 1583575627
+X-Version: 1.10.39

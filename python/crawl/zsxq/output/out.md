@@ -1,0 +1,119 @@
+
+created_time,talk
+2020-03-07T21:55:38.355+0800,"【CVPR 2020 论文开源项目合集】  
+[[github]]( )
+图像分类
+目标检测
+目标跟踪
+语义分割
+实例分割
+视频目标分割
+NAS
+GAN
+Re-ID
+人脸检测
+人脸表情识别
+人体姿态估计
+场景文本检测
+场景文本识别
+模型剪枝
+行为识别
+人群计数
+深度估计
+视觉问答
+视觉语言导航
+视频压缩
+行为轨迹预测
+其他
+不确定中没中"
+2020-03-07T21:52:27.650+0800,"【Computer Version News】
+我扫了一遍，非常硬核，这一期偏医学图像的更多，有点像计算机视觉上的Nature杂志版  
+[[website]]( )"
+2020-03-07T21:41:55.723+0800,"【42. 接雨水  】
+给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
+
+[[题解]]( )"
+2020-03-07T14:33:11.334+0800,"【modern-cpp-features  】
+C++20/17/14/11
+[[github]](  )"
+2020-03-07T10:59:03.465+0800,"神经网络的图像数据预处理
+Image Data Pre-Processing for Neural Networks 
+[[Medium]](  )
+
+包含内容主要如下：  
+- Uniform aspect ratio 统一长宽比  
+由于网络的输入一般是正方形，所以所有图像要统一长宽比和大小，这就要求适当裁剪，裁剪选取方式有中心，四周等方法，一般将带有目标的作为中心裁剪；  
+- Image Scaling 图像缩放  
+确定了图像为正方形后，可以适当缩放图像为我们想要的尺寸；  
+- Mean, Standard Deviation of input data 输入数据的标准差和方差  
+通过标准差，可以发现数据的分布规律大概是什么，可以使某些特征在中心，某些特征关于中心对称，通过标准差，可以看到边缘部分有更高的方差。
+- Normalizing image inputs 规范化图像输入  
+一般规范化输入是将数据减去一个均值再除以标准差，再将像素值从[0,255]缩放到[0,1]的范围，好处是收敛速度加快，同时训练网络的稳定性增强。
+- Dimensionality reduction 降维    
+一般图像时3通道数据，在有些情况下将3通道降维单通道
+- Data Augmentation 数据增强  
+数据增强主要有三个方面：
+几何变换，颜色变换，语义改变
+几何变换的代表有裁剪，翻转，旋转，缩放
+颜色变换的代表有亮度，对比度
+语义改变的代表有cutmix，coutout，mixup，gridmask"
+2020-03-07T10:12:57.760+0800,"【2020】Understanding and Enhancing Mixed Sample Data Augmentation
+
+代码: 
+近年来，混合样本数据增强（MSDA）受到了越来越多的关注，其中包括许多成功的变体，例如MixUp和CutMix。
+在特别了解CutMix的功效之后，我们提出了FMix，它是一种MSDA，它使用通过对从Fourier空间采样的低频图像施加阈值而获得的二进制掩码。
+FMix相对于MixUp和CutMix，针对一系列数据集和问题设置中的许多最新模型提高了性能。
+我们从信息理论的角度继续分析MixUp，CutMix和FMix，根据学习到的模型如何逐步深度压缩输入来表征它们。
+最终，我们的分析使我们能够解开扩增的两个互补属性，并提出一个有关MSDA推理的统一框架。
+
+另外两篇相关的paper：  
+【2017ICLR】mixup: Beyond Empirical Risk Minimization 
+[[paper]]( )
+
+【2019 ICCV Oral】CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features
+[[paper]]( )"
+2020-03-07T08:52:27.294+0800,"来自知乎一小时：
+
+本书将分三章来介绍英文学术写作。第二章，我将着重讨论英文学术写作的基本思路、结构、句式和用词。第三章，我将分类介绍常见学术作品体裁的写法，包括学术论文、求职材料和项目申请书。第四章，我将简单介绍学术写作中需要注意的版权和伦理问题。
+
+"
+2020-03-06T23:21:21.744+0800,"MIT课程推荐，分布式系统，这门课已经开了20年了
+6.824: Distributed Systems
+
+"
+2020-03-06T22:48:05.019+0800,"C++那些事 
+[[github]]( )"
+2020-03-06T22:22:44.778+0800,"图灵三巨头之一 Yoshua Bengio开通了博客。
+开博客的原因原文如下：  
+He decided to create a place to cough some of his thoughts that would be permanant  and easier to find. His blog is intented to cover both research questions and broader questions.
+(翻译过来可能是，大佬要开始网上冲浪了)
+
+"
+2020-03-06T22:11:11.854+0800,"StyleGAN2 - Colab Notebook containing code for training + visualization + projection    
+  
+工科专业就得多动手啊，人家预训练都给了，GPU也准备好了，就差你学习了。"
+2020-03-06T21:40:55.724+0800,"【机器学习资源与路线】
+"
+2020-03-06T21:39:42.549+0800,"分享个人博客，常更新，欢迎订阅RSS提意见。
+【深度学习路线】
+"
+2020-03-06T20:41:04.991+0800,"awesome-Face_Recognition
+"
+2020-03-06T20:35:06.944+0800," 
+2019CVPR文本检测之LSAE
+本文的主要思想是将文本检测当做一种实例分割，采用了基于分割框架来进行检测．具体的做法是将每个文本行看成一个连通区域，为了更好地区分不同文本实例（即挨的很近的文本或者是很大很长的文本），本文提出了将图像像素映射到嵌入特征空间中，在该空间中，属于同一文本实例的像素会更加接近彼此，反之不同文本实例的像素将会远离彼此。特征提取主干网络采用的是ResNet-50，接着使用两个对称的特征融合模块（即两个对称的特征金字塔，这里合并的策略与PANet中的自适应特征池化相似），一个用于后续的嵌入分支(Embedding branch)，另一个用于后续的分割分支(文本行前景图，包括全文本行前景图和向内收缩后的文本行前景图)．通过权重共享，使得两个任务优势互补．网络输出包括嵌入特征图和文本行前景掩膜图，然后经过后处理得到最终的预测文本行总体网络结构如下图1，结果如图2"
+2020-03-06T20:33:51.250+0800,"
+2019CVPR文本检测之LOMO
+受限与CNN的感受野的及文本行的表征方式（bbox或四边形），长文本行与曲线文本的检测仍存在极大的挑战．针对此，本文提出了LOMO(Look More Than Once)，它由三部分组成：直接回归模块(DR)、迭代修正模块(IRM)、形状表征模块(SEM)．首先由直接回归模块产生粗略的四边形表征的候选文本框；接着在提取的特征图上通过迭代修正得到完整的长文本行的四边形表征；最后通过结合文本行区域、文本行中心线及文本行边界偏移得到最终的文本行．具体的框架图1图2，实验结果图3"
+2020-03-06T20:32:52.898+0800,"2019CVPR文本检测之CRAFT
+本文的主要思路是先检测单个字符（character region score）及字符间的连接关系（affinity score），然后根据字符间的连接关系确定最终的文本行，简称CRAFT．其网络结构与EAST的网络结构相似：特征提取主干网络部分采用的是VGG-16 with batch normalization；特征decode模块与U-Net相似，也是采用自顶向下的特征聚合方式；网络最终输出两个通道特征图，即region score map和affinity score map，具体的网络结构图1图2，结果如图3。
+
+
+
+
+ref : "
+2020-03-06T20:28:09.411+0800,"【李宏毅机器学习2020(国语)】“Machine Learning (Hung-yi Lee, 2020)” by 李宏毅
+"
+2020-03-06T19:54:10.915+0800,"
+【“开箱即用”的Transformers模型集市】“All Models and checkpoints | Hugging Face – On a mission to solve NLP, one commit at a time"
+2020-03-06T19:06:50.470+0800,
