@@ -154,4 +154,5 @@ discriminator_scheduler = torch.optim.lr_scheduler.LambdaLR(discriminator_optimi
 - first soulution [[discussion]](https://www.kaggle.com/c/bengaliai-cv19/discussion/135984)
 
 
+- my conclude [[github]](https://github.com/Bryce1010/DeepLearning-Project/tree/master/Classification/Bengali.AI%20Handwritten%20Grapheme%20Classification)
 
