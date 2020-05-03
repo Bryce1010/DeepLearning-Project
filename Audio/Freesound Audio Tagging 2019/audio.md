@@ -30,7 +30,7 @@
 ![](./images/pipeline.png)
 
 - Log-scaled Mel-spectrograms  
-
+librosa
 
 
 #### Model  
