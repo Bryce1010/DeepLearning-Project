@@ -1,1 +1,1 @@
-- 《深度学习与行人重识别》课程课件 浙江大学 [github]
+- 《深度学习与行人重识别》课程课件 浙江大学 [github](https://github.com/michuanhaohao/ReID_tutorial_slides)
