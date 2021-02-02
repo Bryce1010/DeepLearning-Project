@@ -188,3 +188,84 @@ characters, with Chinese characters taking the largest portion.
 -  ICDAR2017 Competiton on Reading Chinese Scene Text in the Wild (RCTW-17
 ![image](https://user-images.githubusercontent.com/30361513/81045636-2ce5c000-8ee9-11ea-9a8f-674722728c82.png)
 
+
+
+## Irregular Text Detection
+
+- Bounding Box:
+![image](https://user-images.githubusercontent.com/30361513/81135050-450d1c00-8f89-11ea-9c78-8d6d35703af5.png)
+
+proposal-based methods.
+fail to accurately delimit irregular texts.
+
+- Text Mask:
+![image](https://user-images.githubusercontent.com/30361513/81135054-48a0a300-8f89-11ea-831c-806af84a1b77.png)
+
+segmentation-based methods.
+hard to extract text instances from the predicted text areas
+
+
+- Field Representation:
+![image](https://user-images.githubusercontent.com/30361513/81135058-4b9b9380-8f89-11ea-8c1b-99afbd08d093.png)
+
+flexible representation.
+precisely describe irregular texts.
+
+Textfield: Learning a deep direction field for irregular scene text detection [Xu et al., TIP 2019.]
+
+
+### Character-based method
+![image](https://user-images.githubusercontent.com/30361513/81133714-12f9bb00-8f85-11ea-988d-b452741fb748.png)
+
+[1] Baek Y, et al. Character Region Awareness for Text Detection. CVPR, 2019.
+### Polygon-based method  
+![image](https://user-images.githubusercontent.com/30361513/81133748-2573f480-8f85-11ea-837f-5c1c80520c78.png)
+
+
+[2] Wang X, et al. Arbitrary Shape Scene Text Detection with Adaptive Text Region Representation. CVPR, 2019.
+
+### Segmentation-based methods
+
+![image](https://user-images.githubusercontent.com/30361513/81133752-29077b80-8f85-11ea-817c-d2f4a52f18e5.png)
+
+[3] Yixing Zhu, et al.  TextMountain: Accurate Scene Text Detection via Instance Segmentation. Arxiv, 2018
+[4] Shangbang Long, et al.  TextSnake: A Flexible Representation for Detecting Text of Arbitrary Shapes. ECCV, 2018
+- SegLink++: Detecting dense and arbitrary shaped scene text by instance-aware component grouping, PR2019.
+
+
+## Irregular Text Recognition  
+
+### Multi-directional feature-based method  
+![image](https://user-images.githubusercontent.com/30361513/81133819-64a24580-8f85-11ea-96a7-bf7ef4204dc8.png)
+
+[1] Zhanzhan Cheng , et al. AON: Towards Arbitrarily-Oriented Text Recognition . CVPR, 2018.
+
+### Segmentation-based method  
+![image](https://user-images.githubusercontent.com/30361513/81133833-6e2bad80-8f85-11ea-9d50-6eac3b02575c.png)
+[2] Minghui Liao et al. Scene Text Recognition from Two-Dimensional Perspective. AAAI, 2019
+
+
+### Rectification-based method  
+![image](https://user-images.githubusercontent.com/30361513/81133848-7be13300-8f85-11ea-80fc-000477d31e77.png)
+[3] Baoguang Shi, et al. ASTER: An Attentional Scene Text Recognizer with Flexible Rectification . TPAMI, 2018
+- Symmetry-constrained Rectification Network for Scene Text Recognition. [Yang et al., ICCV2019]
+
+### 2D-attention based method  
+![image](https://user-images.githubusercontent.com/30361513/81133907-a7641d80-8f85-11ea-87b6-d29d506c7284.png)
+
+[4] Hui Li, et al, Show, Attend and Read: A Simple and Strong Baseline for Irregular Text Recognition. AAAI, 2019
+
+## Irregular Text Spotting  
+### Instance segmentation
+[1] Pengyuan Lyu, et al. Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes. ECCV, 2018.
+![image](https://user-images.githubusercontent.com/30361513/81133993-e1352400-8f85-11ea-9b87-a31072385b05.png)
+- Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes. [Liao et al., TPAMI 2019]
+
+### Detection & 2d-attention
+[2] Siyang Qin, et al. Towards Unconstrained End-to-End Text Spotting . ICCV, 2019
+![image](https://user-images.githubusercontent.com/30361513/81133998-e3977e00-8f85-11ea-8d3d-332ab7d5658b.png)
+
+
+
+
+
