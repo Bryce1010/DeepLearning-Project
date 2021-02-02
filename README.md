@@ -108,7 +108,8 @@ https://www.tensorflow.org/tutorials
 
 
 
-
+## Competitions
+https://www.notion.so/bryce1010/e3d0d07cc8a742cdbc3b355966ecedde?v=a441b7616a564eb7a9df7a03da6eb7e7
 
 
 
