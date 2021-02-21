@@ -1,4 +1,4 @@
-# Learning_DataScience
+# Learning_CV & Deeplearning
 
 
 ## Abstract  
@@ -15,22 +15,21 @@
 ## 目录
 
 ```
-├── Audio
-├── Classification
-├── Crowd_Counting_EM-master
-├── Data_Augmentation
-├── DeepLearningBasic
-├── Detection
-├── GNN
-├── Machine_Learning
-├── NLP
-├── OCR
-│   └── Kuzushiji\ Recognition
-├── RecommendSystem
-├── Segmentation
-│   ├── TGS\ Salt\ Identification\ Challenge
-│   └── iMaterialist\ (Fashion)\ 2019\ at\ FGVC6
-├── Videos
+├── AdvanceCodingWeeklyReport (AdvanceCoding科技周报)
+├── DeepLearningBasic（深度学习基础）
+├── Audio（语音处理）
+├── Classification （目标识别）
+├── Detection （目标检测）
+├── Segmentation （目标分割和语义分割）
+├── OCR （文字处理）
+├── Crowd_Counting_EM-master （人群计数）
+├── Videos （视频处理）
+├── Data_Augmentation（数据填充）
+├── GNN (图卷积)
+├── Machine_Learning（机器学习）
+├── NLP（自然语言处理）
+├── RecommendSystem（推荐系统）
+
 
 ```
 
@@ -61,7 +60,6 @@ https://www.tensorflow.org/tutorials
 
 ### 图像处理
  图像处理 Image and Video Processing: From Mars to Hollywood with a Stop at the Hospital 
-[[couresa Duke]](Image and Video Processing: From Mars to Hollywood with a Stop at the Hospital)
 
 
 
@@ -113,3 +111,22 @@ https://www.notion.so/bryce1010/e3d0d07cc8a742cdbc3b355966ecedde?v=a441b7616a564
 
 
 
+
+
+
+## 1. Audio
+
+
+## 2. Classification
+
+
+## 3. Detection
+
+
+## 4. Segmentation
+
+
+## 5. GAN
+
+
+## 6. Videos
